@@ -12,7 +12,9 @@ npm install
 
 ### 2. Configure API Keys
 
-Create a .env file in the project root and add your TfL credentials:
+Create a .env file in the project root and add your TfL credentials (take a look at .env.example for further guidance).
+
+The API will work without these credentials.
 
 ```bash
 VITE_TFL_APP_ID=yourAppIdHere
