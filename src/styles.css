@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 1rem;
+  background-color: #f8f8f8;
+  color: #222;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.line-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .line-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}
+
+.line-card {
+  padding: 16px;
+  flex: 0 0 48%;
+  box-sizing: border-box;
+  border: 1px solid #000;
+}
+
+.line-card h2 {
+  margin: 0 0 0.5rem 0;
+}
+
+.line-card p {
+  margin: 0;
+}

@@ -25,7 +25,7 @@ npm run dev
 
 ## Running Tests
 
-This app uses React Testing Library and Jest. Run all tests with:
+This app uses React Testing Library and Vitest. Run all tests with:
 
 ```bash
 npm run test
