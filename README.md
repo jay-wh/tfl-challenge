@@ -14,8 +14,10 @@ npm install
 
 Create a .env file in the project root and add your TfL credentials:
 
+```bash
 VITE_TFL_APP_ID=yourAppIdHere
 VITE_TFL_API_KEY=yourApiKeyHere
+```
 
 ### 3. Run the App
 
